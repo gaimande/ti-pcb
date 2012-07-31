@@ -1,0 +1,142 @@
+(ExpressProject "Master-Module"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\master-module.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("Test Point"
+      (FullPartName "Test Point.Normal")
+      (LibraryName "E:\TI CONTEST\PCB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (LM1117
+      (FullPartName "LM1117.Normal")
+      (LibraryName "E:\TI CONTEST\PCB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (FUSE
+      (FullPartName "FUSE.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LM2575HV
+      (FullPartName "LM2575HV.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TPS61073
+      (FullPartName "TPS61073.Normal")
+      (LibraryName "E:\TI CONTEST\PCB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (TLV70033
+      (FullPartName "TLV70033.Normal")
+      (LibraryName "E:\TI CONTEST\PCB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("SW KEY-SPST"
+      (FullPartName "SW KEY-SPST.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON10A
+      (FullPartName "CON10A.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON40A
+      (FullPartName "CON40A.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (Keyboard
+      (FullPartName "Keyboard.Normal")
+      (LibraryName "E:\TI CONTEST\PCB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (EN25F80
+      (FullPartName "EN25F80.Normal")
+      (LibraryName "E:\TI CONTEST\PCB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MAX232A/SO
+      (FullPartName "MAX232A/SO.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\LINEDRIVERRECEIVER.OLB")
+      (DeviceIndex "0"))
+    (CON20AP
+      (FullPartName "CON20AP.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (RJ45-four
+      (FullPartName "RJ45-four.Normal")
+      (LibraryName "E:\TI CONTEST\PCB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON32
+      (FullPartName "CON32.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON32A
+      (FullPartName "CON32A.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC_CIRCLE
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\OrCAD\OrCAD_10.5\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "E:\TI CONTEST\PCB\master-module.dsn")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "E:\TI CONTEST\PCB\library1.olb")
+      (Select "Design Resources" "Library" "E:\TI CONTEST\PCB\library1.olb"
+         "Test Point"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 48 248 -8 387"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 225 1257 37 466")
+        (Scroll "0 0")
+        (Zoom "25")
+        (Occurrence "/"))
+      (Path "E:\TI CONTEST\PCB\MASTER-MODULE.DSN")
+      (Schematic "LM3S9790")
+      (Page "LM3S9790")))
+  (MPSSessionName "Jo"))
