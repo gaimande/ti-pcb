@@ -10,10 +10,57 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (Board_sim_option "VHDL_flow"))
-  (Folder "Outputs")
+    (Board_sim_option "VHDL_flow")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File "E:\CODE PROJECT\TI-PCB\MASTER-MODULE.DRC")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "MASTER-MODULE.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (TRUE)
+    (LAYOUT_Units "0")
+    ( "TRUE"))
+  (Folder "Outputs"
+    (File ".\master-module.drc"
+      (Type "Report"))
+    (File ".\master-module.mnl"
+      (Type "LAYOUT Netlist File")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("RJ45 Single"
+      (FullPartName "RJ45 Single.Normal")
+      (LibraryName "E:\CODE PROJECT\TI-PCB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (TMP102
+      (FullPartName "TMP102.Normal")
+      (LibraryName "E:\CODE PROJECT\TI-PCB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PIC12C508
+      (FullPartName "PIC12C508.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\MICROCONTROLLER.OLB")
+      (DeviceIndex "0"))
+    (DS0026
+      (FullPartName "DS0026.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\MISC3.OLB")
+      (DeviceIndex "0"))
     (CON4
       (FullPartName "CON4.Normal")
       (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -94,49 +141,28 @@
       (FullPartName "MAX232A/SO.Normal")
       (LibraryName
          "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\LINEDRIVERRECEIVER.OLB")
-      (DeviceIndex "0"))
-    (CON20AP
-      (FullPartName "CON20AP.Normal")
-      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (RJ45-four
-      (FullPartName "RJ45-four.Normal")
-      (LibraryName "E:\TI CONTEST\PCB\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (CON32
-      (FullPartName "CON32.Normal")
-      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (CON32A
-      (FullPartName "CON32A.Normal")
-      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (VCC_CIRCLE
-      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory "C:\OrCAD\OrCAD_10.5\tools\capture\library")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "E:\TI CONTEST\PCB\master-module.dsn")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "E:\TI CONTEST\PCB\library1.olb")
-      (Select "Design Resources" "Library" "E:\TI CONTEST\PCB\library1.olb"
-         "Test Point"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\master-module.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 48 248 -8 387"))
+        (Placement "44 0 1 -1 -1 -8 -30 33 233 22 417"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 225 1257 37 466")
-        (Scroll "0 0")
-        (Zoom "25")
+        (Placement "44 0 1 -1 -1 -8 -30 453 1615 50 473")
+        (Scroll "1996 618")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "E:\TI CONTEST\PCB\MASTER-MODULE.DSN")
+      (Path "E:\CODE PROJECT\TI-PCB\MASTER-MODULE.DSN")
       (Schematic "LM3S9790")
       (Page "LM3S9790")))
   (MPSSessionName "Jo"))
