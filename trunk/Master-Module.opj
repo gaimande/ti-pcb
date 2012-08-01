@@ -32,7 +32,8 @@
     (LAYOUT_PCB_Footprint "{PCB Footprint}")
     (TRUE)
     (LAYOUT_Units "0")
-    (TRUE))
+    (TRUE)
+    ( "TRUE"))
   (Folder "Outputs"
     (File ".\master-module.drc"
       (Type "Report"))
@@ -147,7 +148,9 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "Library")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" "Library"
+         "E:\Code Project\ti-pcb\library1.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -158,8 +161,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 346 1508 39 462")
-        (Scroll "1319 998")
-        (Zoom "100")
+        (Scroll "1550 500")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "E:\CODE PROJECT\TI-PCB\MASTER-MODULE.DSN")
       (Schematic "LM3S9790")

@@ -1,0 +1,253 @@
+AutoECO Report
+FILE-A: E:\CODE PROJECT\TI-PCB\_DEFAULT.TCH
+FILE-B: E:\CODE PROJECT\TI-PCB\MASTER-MODULE.MNL
+If "*EOF*" immediately follows, no changes were made
+Found footprint COM PORT 9 PIN FEMALE from PRT file for original FP SUBD9M_H_C, comp J18
+Adding footprint QFP50P1600X1600X160-100N
+Adding package DCR010503_1
+Adding package CON40A
+Adding package TEST_POINT
+Adding package DIODE
+Adding package CAP
+Adding package LED
+Adding package CON3
+Adding package INDUCTOR
+Adding package CAP_NP
+Adding package RJ45_SINGLE
+Adding package RESISTOR
+Adding package CON2
+Adding package CAPACITOR
+Adding package CRYSTAL
+Adding package TPS61073_1
+Adding package EN25F80
+Adding package JUMPER1_2
+Adding package USB_TYPE_A
+Adding package FUSE
+Adding package TPS22960DCN_0
+Adding package CON4
+Adding package ISO35_1
+Adding package TLV70033
+Adding package PHONEJACK_STEREO_0
+Adding package USB_TYPEB
+Adding package CON5
+Adding package BATTERY
+Adding package SW_KEY-SPST
+Adding package RTC_BQ32000_0
+Adding package JUMPER1_4
+Adding package TS3USB_0
+Adding package MAX232A/SO_4
+Adding package RJ45_0
+Adding package LM1117_0
+Adding package CON10A
+Adding package TMP102
+Adding package SDCARD_2
+Adding package TLV320AIC23_0
+Adding package LM2575HV_0
+Adding package SN105125
+Adding package CON20AP
+Adding package SUBD9_M_COUDE
+Adding package LM3S9790-IQC_0
+Adding component U12
+Found footprint DVB12-M from PRT file for part DCR010503_1, comp U12
+Adding component J21
+Found footprint J20*2 LARGE 2 from PRT file for part CON40A, comp J21
+Adding component TP9
+Found footprint TESTPOINT from PRT file for part TEST_POINT, comp TP9
+Adding component D1
+Found library footprint with same name as part DIODE
+Adding component C49
+Found footprint SMD_R_(0805) from PRT file for part CAP, comp C49
+Adding component D3
+Found library footprint with same name as part LED
+Adding component J10
+Found footprint CONNECTOR 3 PIN (TRANG TO) from PRT file for part CON3, comp J10
+Adding component L2
+Found footprint CUON DAY from PRT file for part INDUCTOR, comp L2
+Adding component C54
+Found library footprint with same name as part CAP_NP
+Adding component U23
+Found footprint RJ45_SIMPLE from PRT file for part RJ45_SINGLE, comp U23
+Adding component R25
+Found footprint SMD_RES from PRT file for part RESISTOR, comp R25
+Adding component C42
+Adding component 24VDC
+Found footprint CONNECTOR 2 PIN(LARGE) from PRT file for part CON2, comp 24VDC
+Adding component C56
+Found footprint CAPACITOR (PICOPARA) from PRT file for part CAPACITOR, comp C56
+Adding component TP3
+Adding component C14
+Adding component C16
+Adding component Y2
+Found library footprint with same name as part CRYSTAL
+Adding component R24
+Adding component C40
+Adding component U18
+Found footprint TPS61073_DDCR from PRT file for part TPS61073_1, comp U18
+Adding component C17
+Adding component R28
+Adding component R47
+Adding component U15
+Found library footprint with same name as part EN25F80
+Adding component TP10
+Adding component Y3
+Adding component C1
+Adding component C50
+Adding component R32
+Adding component R43
+Adding component R16
+Adding component TP16
+Adding component C7
+Adding component R38
+Adding component J12
+Found footprint JUMPER 2 from PRT file for part JUMPER1_2, comp J12
+Adding component J3
+ERROR: No footprint found for comp J3
+Adding component F1
+Found library footprint with same name as part FUSE
+Adding component R17
+Adding component R33
+Adding component R13
+Adding component C58
+Adding component C35
+Adding component C22
+Adding component U1
+Found footprint TPS22960 from PRT file for part TPS22960DCN_0, comp U1
+Adding component C3
+Adding component D6
+Adding component J24
+Found footprint CONNECTOR 4 PIN(LARGE) from PRT file for part CON4, comp J24
+Adding component C48
+Adding component D12
+Adding component R7
+Adding component U11
+Found footprint ISO35 from PRT file for part ISO35_1, comp U11
+Adding component U17
+Found footprint TLV70033-Q1_DDC from PRT file for part TLV70033, comp U17
+Adding component D7
+Adding component TP17
+Adding component C60
+Adding component R27
+Adding component R42
+Adding component C8
+Adding component C10
+Adding component J9
+Found footprint AUDIO 3.5MM from PRT file for part PHONEJACK_STEREO_0, comp J9
+Adding component C61
+Adding component J4
+ERROR: No footprint found for comp J4
+Adding component R40
+Adding component R15
+Adding component C37
+Adding component J8
+Found footprint CONNECTOR 5 PIN from PRT file for part CON5, comp J8
+Adding component C21
+Adding component C43
+Adding component C32
+Adding component TP1
+Adding component R31
+Adding component TP4
+Adding component BT1
+Found footprint BATERY 3V from PRT file for part BATTERY, comp BT1
+Adding component R3
+Adding component C4
+Adding component C57
+Adding component D5
+Adding component SW1
+Found footprint SW 4P from PRT file for part SW_KEY-SPST, comp SW1
+Adding component U4
+Found footprint BQ32000 from PRT file for part RTC_BQ32000_0, comp U4
+Adding component C45
+Adding component D2
+Adding component C51
+Adding component R4
+Adding component R39
+Adding component U24
+Adding component D4
+Adding component C52
+Adding component C31
+Adding component J7
+Adding component TP15
+Adding component C38
+Adding component R46
+Adding component C55
+Adding component R21
+Adding component C41
+Adding component C36
+Adding component R8
+Adding component C59
+Adding component R22
+Adding component C11
+Adding component U25
+Adding component J19
+Adding component C33
+Adding component U5
+Found footprint TS3USB30E from PRT file for part TS3USB_0, comp U5
+Adding component C5
+Adding component U14
+Found footprint MAX232-D from PRT file for part MAX232A/SO_4, comp U14
+Adding component J2
+Found footprint RJ45_HR911105A from PRT file for part RJ45_0, comp J2
+Adding component R2
+Adding component U20
+Found footprint LM1117 from PRT file for part LM1117_0, comp U20
+Adding component R29
+Adding component TP12
+Adding component C24
+Adding component J22
+Found library footprint with same name as part CON10A
+Adding component U9
+Found library footprint with same name as part TMP102
+Adding component J5
+Found footprint SMD_SD CARD from PRT file for part SDCARD_2, comp J5
+Adding component TP6
+Adding component U10
+Found footprint TLV320AIC23B-Q1 from PRT file for part TLV320AIC23_0, comp U10
+Adding component U19
+Found footprint LM2575_N16 from PRT file for part LM2575HV_0, comp U19
+Adding component U22
+Adding component TP2
+Adding component L1
+Adding component R44
+Adding component C39
+Adding component TP14
+Adding component U2
+Found footprint SN105125_DBV5-M from PRT file for part SN105125, comp U2
+Adding component TP8
+Adding component TP5
+Adding component R41
+Adding component C34
+Adding component J11
+Found footprint FUCK from PRT file for part CON20AP, comp J11
+Adding component R5
+Adding component C30
+Adding component R9
+Adding component C44
+Adding component TP7
+Adding component J6
+Adding component R6
+Adding component C2
+Adding component TP13
+Adding component R1
+Adding component R26
+Adding component R30
+Adding component J18
+Adding component C6
+Adding component C47
+Adding component TP11
+Adding component C15
+Adding component C25
+Adding component C18
+Adding component Y1
+Adding component C20
+Adding component R12
+Adding component R23
+Adding component C53
+Adding component C19
+Adding component C46
+Adding component R14
+Adding component 2
+Adding component R45
+Adding component C9
+*EOF*
+Unable to complete ECO due to errors
+2 errors found
