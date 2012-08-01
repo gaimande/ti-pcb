@@ -5,104 +5,102 @@ Checking Pins and Pin Connections
 Checking Schematic: LM3S9790
 --------------------------------------------------
 Checking Electrical Rules 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net I2SRXSD
-                    LM3S9790, LM3S9790  (389.89, 215.90) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net Reset_n
-                    LM3S9790, LM3S9790  (452.88, 91.44) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net Reset_n
-                    LM3S9790, LM3S9790  (233.68, 142.24) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net FLCSn
-                    LM3S9790, LM3S9790  (384.56, 228.60) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net SDCLK
+                    LM3S9790, LM3S9790  (325.12, 187.96) 
 ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net Stellaris_VDD
                     LM3S9790, LM3S9790  (322.83, 341.12) 
 ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net Stellaris_VDD
                     LM3S9790, LM3S9790  (449.58, 358.14) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net SDMISO
-                    LM3S9790, LM3S9790  (325.63, 193.04) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net XOSC0
-                    LM3S9790, LM3S9790  (247.40, 372.87) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net FLCSn
+                    LM3S9790, LM3S9790  (384.56, 228.60) 
 ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net SDMOSI
                     LM3S9790, LM3S9790  (316.99, 195.58) 
-ERROR:  [DRC0004]  Possible pin type conflict +5V_HVBUS Output Port Connected to Power
-                    LM3S9790, LM3S9790  (655.57, 410.21) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net USB0ID
-                    LM3S9790, LM3S9790  (599.44, 122.43) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net USB0ID
-                    LM3S9790, LM3S9790  (746.51, 127.76) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net HIB_N
-                    LM3S9790, LM3S9790  (383.79, 340.36) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net V-REC
-                    LM3S9790, LM3S9790  (754.38, 196.60) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net XOSC1
-                    LM3S9790, LM3S9790  (240.79, 375.41) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net XOSC0
+                    LM3S9790, LM3S9790  (247.40, 372.87) 
 ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net +DVBUS
                     LM3S9790, LM3S9790  (624.84, 492.76) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net HIB_N
+                    LM3S9790, LM3S9790  (383.79, 340.36) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net XOSC1
+                    LM3S9790, LM3S9790  (240.79, 375.41) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net I2SRXWS
+                    LM3S9790, LM3S9790  (389.89, 208.28) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net I2SRXSD
+                    LM3S9790, LM3S9790  (389.89, 215.90) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net SDMISO
+                    LM3S9790, LM3S9790  (325.63, 193.04) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net SDCSn
+                    LM3S9790, LM3S9790  (317.25, 190.50) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net Reset_n
+                    LM3S9790, LM3S9790  (452.88, 91.44) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net Reset_n
+                    LM3S9790, LM3S9790  (233.68, 142.24) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net USB0ID
+                    LM3S9790, LM3S9790  (599.44, 122.43) 
+ERROR:  [DRC0004]  Possible pin type conflict +5V_HVBUS Output Port Connected to Power
+                    LM3S9790, LM3S9790  (655.57, 410.21) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net LED0
+                    LM3S9790, LM3S9790  (404.37, 236.22) 
+ERROR:  [DRC0004]  Possible pin type conflict VCC+33A Output Port Connected to Power
+                    LM3S9790, LM3S9790  (643.64, 377.70) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net LED1
+                    LM3S9790, LM3S9790  (397.00, 233.68) 
+ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net V-REC
+                    LM3S9790, LM3S9790  (754.38, 196.60) 
 ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net VBAT
                     LM3S9790, LM3S9790  (383.79, 350.52) 
 ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net WAKE_N
                     LM3S9790, LM3S9790  (383.79, 345.44) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net I2SRXWS
-                    LM3S9790, LM3S9790  (389.89, 208.28) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net LED0
-                    LM3S9790, LM3S9790  (404.37, 236.22) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net SDCLK
-                    LM3S9790, LM3S9790  (325.12, 187.96) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net LED1
-                    LM3S9790, LM3S9790  (397.00, 233.68) 
-ERROR:  [DRC0004]  Possible pin type conflict VCC+33A Output Port Connected to Power
-                    LM3S9790, LM3S9790  (643.64, 377.70) 
-ERROR:  [DRC0003]  Port has a type which is inconsistent with other ports on the net SDCSn
-                    LM3S9790, LM3S9790  (317.25, 190.50) 
 ERROR:  [DRC0004]  Possible pin type conflict VCC+33 Input Port Connected to Power
                     LM3S9790, LM3S9790  (421.39, 425.96) 
 
 Checking for Unconnected Nets
-WARNING:  [DRC0007]  Net has no driving source N20313127
-                    LM3S9790, LM3S9790  (69.09, 124.21) 
 WARNING:  [DRC0007]  Net has no driving source N16792320
                     LM3S9790, LM3S9790  (465.58, 447.55) 
-WARNING:  [DRC0007]  Net has no driving source N18097668
-                    LM3S9790, LM3S9790  (274.83, 99.06) 
 WARNING:  [DRC0007]  Net has no driving source N16779246
                     LM3S9790, LM3S9790  (422.40, 367.03) 
+WARNING:  [DRC0007]  Net has no driving source N20313127
+                    LM3S9790, LM3S9790  (69.09, 124.21) 
+WARNING:  [DRC0007]  Net has no driving source N18097668
+                    LM3S9790, LM3S9790  (274.83, 99.06) 
 WARNING:  [DRC0006]  Net has fewer than two connections GLCD_D/I
                     LM3S9790, LM3S9790  (268.22, 241.30) 
-WARNING:  [DRC0006]  Net has fewer than two connections EXT6
-                    LM3S9790, LM3S9790  (380.24, 238.76) 
-WARNING:  [DRC0006]  Net has fewer than two connections N20313127
-                    LM3S9790, LM3S9790  (69.09, 124.21) 
-WARNING:  [DRC0006]  Net has fewer than two connections EXT2
-                    LM3S9790, LM3S9790  (380.24, 195.58) 
-WARNING:  [DRC0006]  Net has fewer than two connections N16792320
-                    LM3S9790, LM3S9790  (465.58, 447.55) 
-WARNING:  [DRC0006]  Net has fewer than two connections EX6
-                    LM3S9790, LM3S9790  (225.04, 254.00) 
-WARNING:  [DRC0006]  Net has fewer than two connections EXT1
-                    LM3S9790, LM3S9790  (379.73, 193.04) 
-WARNING:  [DRC0006]  Net has fewer than two connections EX4
-                    LM3S9790, LM3S9790  (225.04, 248.92) 
-WARNING:  [DRC0006]  Net has fewer than two connections GLCD_DI
-                    LM3S9790, LM3S9790  (380.24, 241.30) 
-WARNING:  [DRC0006]  Net has fewer than two connections EXT4
-                    LM3S9790, LM3S9790  (380.24, 220.98) 
-WARNING:  [DRC0006]  Net has fewer than two connections N18097668
-                    LM3S9790, LM3S9790  (274.83, 99.06) 
-WARNING:  [DRC0006]  Net has fewer than two connections EX5
-                    LM3S9790, LM3S9790  (225.04, 251.46) 
 WARNING:  [DRC0006]  Net has fewer than two connections EX2
                     LM3S9790, LM3S9790  (225.04, 243.84) 
+WARNING:  [DRC0006]  Net has fewer than two connections EX6
+                    LM3S9790, LM3S9790  (225.04, 254.00) 
+WARNING:  [DRC0006]  Net has fewer than two connections N16792320
+                    LM3S9790, LM3S9790  (465.58, 447.55) 
 WARNING:  [DRC0006]  Net has fewer than two connections N16779246
                     LM3S9790, LM3S9790  (422.40, 367.03) 
+WARNING:  [DRC0006]  Net has fewer than two connections EX5
+                    LM3S9790, LM3S9790  (225.04, 251.46) 
+WARNING:  [DRC0006]  Net has fewer than two connections N20313127
+                    LM3S9790, LM3S9790  (69.09, 124.21) 
+WARNING:  [DRC0006]  Net has fewer than two connections EXT4
+                    LM3S9790, LM3S9790  (435.10, 220.98) 
+WARNING:  [DRC0006]  Net has fewer than two connections GLCD_DI
+                    LM3S9790, LM3S9790  (435.10, 241.30) 
+WARNING:  [DRC0006]  Net has fewer than two connections EXT6
+                    LM3S9790, LM3S9790  (434.85, 238.76) 
 WARNING:  [DRC0006]  Net has fewer than two connections EX1
                     LM3S9790, LM3S9790  (225.04, 241.30) 
-WARNING:  [DRC0006]  Net has fewer than two connections EXT5
-                    LM3S9790, LM3S9790  (380.24, 223.52) 
-WARNING:  [DRC0006]  Net has fewer than two connections EX3
-                    LM3S9790, LM3S9790  (225.04, 246.38) 
 WARNING:  [DRC0006]  Net has fewer than two connections EXT3
                     LM3S9790, LM3S9790  (379.98, 200.66) 
+WARNING:  [DRC0006]  Net has fewer than two connections EXT2
+                    LM3S9790, LM3S9790  (435.10, 195.58) 
+WARNING:  [DRC0006]  Net has fewer than two connections EXT1
+                    LM3S9790, LM3S9790  (435.10, 193.04) 
+WARNING:  [DRC0006]  Net has fewer than two connections EXT5
+                    LM3S9790, LM3S9790  (435.10, 223.52) 
+WARNING:  [DRC0006]  Net has fewer than two connections N18097668
+                    LM3S9790, LM3S9790  (274.83, 99.06) 
+WARNING:  [DRC0006]  Net has fewer than two connections EX4
+                    LM3S9790, LM3S9790  (225.04, 248.92) 
+WARNING:  [DRC0006]  Net has fewer than two connections EX3
+                    LM3S9790, LM3S9790  (225.04, 246.38) 
 ERROR:  [DRC0029]  Bus has no name and therefore defines no signals. N18331654
-                    LM3S9790, LM3S9790  (437.64, 266.70) 
+                    LM3S9790, LM3S9790  (287.02, 231.14) 
 
 Checking for Invalid References
 [DRC0011]  Reference is invalid for this part 24VDC
