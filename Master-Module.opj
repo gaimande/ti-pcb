@@ -32,7 +32,7 @@
     (LAYOUT_PCB_Footprint "{PCB Footprint}")
     (TRUE)
     (LAYOUT_Units "0")
-    ( "TRUE"))
+    (TRUE))
   (Folder "Outputs"
     (File ".\master-module.drc"
       (Type "Report"))
@@ -148,7 +148,7 @@
       (Path "Design Resources")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\master-module.dsn"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -159,7 +159,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 453 1615 50 473")
-        (Scroll "1996 618")
+        (Scroll "353 9")
         (Zoom "100")
         (Occurrence "/"))
       (Path "E:\CODE PROJECT\TI-PCB\MASTER-MODULE.DSN")
