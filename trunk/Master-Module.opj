@@ -157,9 +157,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 453 1615 50 473")
-        (Scroll "0 0")
-        (Zoom "25")
+        (Placement "44 0 1 -1 -1 -8 -30 346 1508 39 462")
+        (Scroll "1319 998")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "E:\CODE PROJECT\TI-PCB\MASTER-MODULE.DSN")
       (Schematic "LM3S9790")
