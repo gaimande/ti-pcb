@@ -31,7 +31,10 @@
     (LAYOUT_Netlist_File "MASTER-MODULE.MNL")
     (LAYOUT_PCB_Footprint "{PCB Footprint}")
     (TRUE)
-    (LAYOUT_Units "0")
+    (LAYOUT_Units "1")
+    (TRUE)
+    (TRUE)
+    (TRUE)
     (TRUE)
     ( "TRUE"))
   (Folder "Outputs"
@@ -41,6 +44,26 @@
       (Type "LAYOUT Netlist File")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CON20AP
+      (FullPartName "CON20AP.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON6
+      (FullPartName "CON6.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("USB - B"
+      (FullPartName "USB - B.Normal")
+      (LibraryName "E:\CODE PROJECT\TI-PCB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("USB A"
+      (FullPartName "USB A.Normal")
+      (LibraryName "E:\CODE PROJECT\TI-PCB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (DB9
+      (FullPartName "DB9.Normal")
+      (LibraryName "E:\CODE PROJECT\TI-PCB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     ("RJ45 Single"
       (FullPartName "RJ45 Single.Normal")
       (LibraryName "E:\CODE PROJECT\TI-PCB\LIBRARY1.OLB")
@@ -121,27 +144,6 @@
     (CON5
       (FullPartName "CON5.Normal")
       (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (CON40A
-      (FullPartName "CON40A.Normal")
-      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (Keyboard
-      (FullPartName "Keyboard.Normal")
-      (LibraryName "E:\TI CONTEST\PCB\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (EN25F80
-      (FullPartName "EN25F80.Normal")
-      (LibraryName "E:\TI CONTEST\PCB\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (CAP
-      (FullPartName "CAP.Normal")
-      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (MAX232A/SO
-      (FullPartName "MAX232A/SO.Normal")
-      (LibraryName
-         "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\LINEDRIVERRECEIVER.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory "C:\OrCAD\OrCAD_10.5\tools\capture\library")
   (GlobalState
@@ -149,20 +151,19 @@
       (Path "Design Resources")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" "Library"
-         "E:\Code Project\ti-pcb\library1.olb"))
+      (Select "Design Resources" "E:\Code Project\ti-pcb\master-module.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 32 232 3 398"))
+        (Placement "44 0 1 -1 -1 -8 -30 27 227 33 428"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 346 1508 39 462")
-        (Scroll "1550 500")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -8 -30 27 1189 65 690")
+        (Scroll "3149 557")
+        (Zoom "216")
         (Occurrence "/"))
       (Path "E:\CODE PROJECT\TI-PCB\MASTER-MODULE.DSN")
       (Schematic "LM3S9790")

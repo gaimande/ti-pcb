@@ -1,8 +1,7 @@
 AutoECO Report
-FILE-A: E:\CODE PROJECT\TI-PCB\_DEFAULT.TCH
+FILE-A: C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\METRIC.TCH
 FILE-B: E:\CODE PROJECT\TI-PCB\MASTER-MODULE.MNL
 If "*EOF*" immediately follows, no changes were made
-Found footprint COM PORT 9 PIN FEMALE from PRT file for original FP SUBD9M_H_C, comp J18
 Adding footprint QFP50P1600X1600X160-100N
 Adding package DCR010503_1
 Adding package CON40A
@@ -13,27 +12,27 @@ Adding package LED
 Adding package CON3
 Adding package INDUCTOR
 Adding package CAP_NP
-Adding package RJ45_SINGLE
+Adding package RJ45_SINGLE_0
 Adding package RESISTOR
 Adding package CON2
 Adding package CAPACITOR
+Adding package DB9
 Adding package CRYSTAL
 Adding package TPS61073_1
 Adding package EN25F80
 Adding package JUMPER1_2
-Adding package USB_TYPE_A
 Adding package FUSE
 Adding package TPS22960DCN_0
 Adding package CON4
 Adding package ISO35_1
 Adding package TLV70033
 Adding package PHONEJACK_STEREO_0
-Adding package USB_TYPEB
 Adding package CON5
 Adding package BATTERY
 Adding package SW_KEY-SPST
 Adding package RTC_BQ32000_0
 Adding package JUMPER1_4
+Adding package USB_-_B_0
 Adding package TS3USB_0
 Adding package MAX232A/SO_4
 Adding package RJ45_0
@@ -45,7 +44,7 @@ Adding package TLV320AIC23_0
 Adding package LM2575HV_0
 Adding package SN105125
 Adding package CON20AP
-Adding package SUBD9_M_COUDE
+Adding package USB_A_0
 Adding package LM3S9790-IQC_0
 Adding component U12
 Found footprint DVB12-M from PRT file for part DCR010503_1, comp U12
@@ -66,7 +65,6 @@ Found footprint CUON DAY from PRT file for part INDUCTOR, comp L2
 Adding component C54
 Found library footprint with same name as part CAP_NP
 Adding component U23
-Found footprint RJ45_SIMPLE from PRT file for part RJ45_SINGLE, comp U23
 Adding component R25
 Found footprint SMD_RES from PRT file for part RESISTOR, comp R25
 Adding component C42
@@ -74,6 +72,8 @@ Adding component 24VDC
 Found footprint CONNECTOR 2 PIN(LARGE) from PRT file for part CON2, comp 24VDC
 Adding component C56
 Found footprint CAPACITOR (PICOPARA) from PRT file for part CAPACITOR, comp C56
+Adding component J18
+Found footprint DB9 FEMALE 2 from PRT file for part DB9, comp J18
 Adding component TP3
 Adding component C14
 Adding component C16
@@ -100,8 +100,6 @@ Adding component C7
 Adding component R38
 Adding component J12
 Found footprint JUMPER 2 from PRT file for part JUMPER1_2, comp J12
-Adding component J3
-ERROR: No footprint found for comp J3
 Adding component F1
 Found library footprint with same name as part FUSE
 Adding component R17
@@ -128,13 +126,11 @@ Adding component TP17
 Adding component C60
 Adding component R27
 Adding component R42
-Adding component C8
 Adding component C10
+Adding component C8
 Adding component J9
 Found footprint AUDIO 3.5MM from PRT file for part PHONEJACK_STEREO_0, comp J9
 Adding component C61
-Adding component J4
-ERROR: No footprint found for comp J4
 Adding component R40
 Adding component R15
 Adding component C37
@@ -169,8 +165,8 @@ Adding component J7
 Adding component TP15
 Adding component C38
 Adding component R46
-Adding component C55
 Adding component R21
+Adding component C55
 Adding component C41
 Adding component C36
 Adding component R8
@@ -178,6 +174,7 @@ Adding component C59
 Adding component R22
 Adding component C11
 Adding component U25
+Adding component U7
 Adding component J19
 Adding component C33
 Adding component U5
@@ -222,15 +219,15 @@ Adding component R5
 Adding component C30
 Adding component R9
 Adding component C44
-Adding component TP7
 Adding component J6
+Adding component TP7
 Adding component R6
 Adding component C2
 Adding component TP13
 Adding component R1
+Adding component U6
 Adding component R26
 Adding component R30
-Adding component J18
 Adding component C6
 Adding component C47
 Adding component TP11
@@ -248,6 +245,165 @@ Adding component R14
 Adding component 2
 Adding component R45
 Adding component C9
+Adding net GLCD_DAT1
+Adding net USB0DM
+Adding net USB0DP
+Adding net U0RX
+Adding net U0TX
+Adding net GND_POWER
+Adding net N16828558
+Adding net N16827814
+Adding net GLCD_D/I
+Adding net N19590127
+Adding net GLCD_R/W
+Adding net GLCD_CS2
+Adding net GLCD_CS1
+Adding net GLCD_E
+Adding net N18095715
+Adding net GLCD_RST
+Adding net SDA
+Adding net SCL
+Adding net RESET_N
+Adding net EN_VBUS
+Adding net N195619990
+Adding net N17018365
+Adding net N18139077
+Adding net N18141780
+Adding net N17030222
+Adding net N17030985
+Adding net VCC+33
+Adding net N16779246
+Adding net N181573200
+Adding net GND
+Adding net NC
+Adding net ROW1
+Adding net ROW4
+Adding net COLUMN2
+Adding net COLUMN4
+Adding net N20737604
+Adding net ROW2
+Adding net COLUMN3
+Adding net N181739151
+Adding net N17674317
+Adding net N16824546
+Adding net N181849361
+Adding net N181849481
+Adding net I2STXSD
+Adding net I2SRXSD
+Adding net N18212038
+Adding net N18216972
+Adding net N1733482421
+Adding net I2SRXWS
+Adding net N1733482420
+Adding net N198100820
+Adding net I2SRXSCK
+Adding net N19843009
+Adding net I2SRXMCLK
+Adding net N18098510
+Adding net N17390613
+Adding net N18302077
+Adding net N17390612
+Adding net N17390615
+Adding net U1CTS
+Adding net N17390614
+Adding net U1RTS
+Adding net GLCD_LIGHT
+Adding net LED1
+Adding net LED0
+Adding net PUMP1
+Adding net N16853444
+Adding net PUMP2
+Adding net N17446729
+Adding net N16858113
+Adding net VCC+5
+Adding net FLCSN
+Adding net GLCD_DI
+Adding net N20838535
+Adding net N20860741
+Adding net N20873520
+Adding net N167762470
+Adding net N17745959
+Adding net N17749890
+Adding net N17753020
+Adding net N17755465
+Adding net N197126441
+Adding net N19766001
+Adding net N19958324
+Adding net SDCLK
+Adding net SDMISO
+Adding net SDMOSI
+Adding net N17496401
+Adding net SDCSN
+Adding net N17501792
+Adding net N17509998
+Adding net ADC0
+Adding net EX2
+Adding net N18300229
+Adding net EX4
+Adding net EXT1
+Adding net EX1
+Adding net EX5
+Adding net EX6
+Adding net EXT3
+Adding net N200015531
+Adding net EXT5
+Adding net EXT4
+Adding net EXT2
+Adding net EXT6
+Adding net EX3
+Adding net LDO
+Adding net N16922650
+Adding net N16827461
+Adding net TDO
+Adding net TCK
+Adding net TDI
+Adding net TMS
+Adding net N16791139
+Adding net N16792320
+Adding net HIB_N
+Adding net XOSC1
+Adding net XOSC0
+Adding net N17568785
+Adding net WAKE_N
+Adding net VBAT
+Adding net VDDC
+Adding net N17579393
+Adding net GND_FIELD SIGNAL
+Adding net ROW3
+Adding net N20313127
+Adding net V-REC
+Adding net COLUMN1
+Adding net N16923652
+Adding net V3.3_ISO
+Adding net +DVBUS
+Adding net STELLARIS_VDD
+Adding net N19461544
+Adding net VCC+33A
+Adding net N17419149
+Adding net N16933877
+Adding net N18004271
+Adding net N16934585
+Adding net N18009978
+Adding net N18003455
+Adding net N18011868
+Adding net +5V_HVBUS
+Adding net N16804745
+Adding net N16806961
+Adding net N16807103
+Adding net N16941416
+Adding net U1RX
+Adding net U1TX
+Adding net N17665502
+Adding net N16808437
+Adding net GLCD_DAT0
+Adding net USB0ID
+Adding net N16808751
+Adding net GLCD_DAT5
+Adding net GLCD_DAT7
+Adding net GLCD_DAT4
+Adding net GLCD_DAT3
+Adding net GLCD_DAT6
+Adding net GLCD_DAT2
+Deleting net DEFAULT
 *EOF*
-Unable to complete ECO due to errors
-2 errors found
+No errors found

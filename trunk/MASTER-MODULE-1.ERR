@@ -1,11 +1,4 @@
 AutoECO Error Report
-FILE-A: E:\CODE PROJECT\TI-PCB\_DEFAULT.TCH
+FILE-A: C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\METRIC.TCH
 FILE-B: E:\CODE PROJECT\TI-PCB\MASTER-MODULE.MNL
-ERROR: Electrical package SUBD9_M_COUDE for comp J18 has at least one pin (11)                        
-which has no corresponding pin on footprint COM PORT 9 PIN FEMALE.                        
-You may create or modify a footprint, choose another,                        
-or press Cancel at the main dialog to skip this component.
-ERROR: No footprint found for comp J3
-ERROR: No footprint found for comp J4
-Unable to complete ECO due to errors
-2 errors found
+No errors found
