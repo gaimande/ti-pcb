@@ -155,23 +155,27 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" "E:\Code Project\ti-pcb\master-module.dsn")
+      (Path "Design Resources" "E:\Code Project\ti-pcb\master-module.dsn"
+         "LM3S9790")
+      (Path "Design Resources" "E:\Code Project\ti-pcb\master-module.dsn"
+         "MCU, Ethernet, Dispaly Con")
+      (Path "Design Resources" "E:\Code Project\ti-pcb\master-module.dsn"
+         "Power Supply")
+      (Path "Design Resources" "E:\Code Project\ti-pcb\master-module.dsn"
+         "RTC, AUDIO, TMP, RS485")
+      (Path "Design Resources" "E:\Code Project\ti-pcb\master-module.dsn"
+         "SD Card, RS-485, USB, Audio")
+      (Path "Design Resources" "E:\Code Project\ti-pcb\master-module.dsn"
+         "USB, SD Card, MAX232, JTAG")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources" "E:\Code Project\ti-pcb\master-module.dsn"
+         "LM3S9790" "LM3S9790"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 13 213 211 606"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1216 50 483")
-        (Scroll "0 0")
-        (Zoom "25")
-        (Occurrence "/"))
-      (Path "E:\CODE PROJECT\TI-PCB\MASTER-MODULE.DSN")
-      (Schematic "LM3S9790")
-      (Page "LM3S9790")))
+        (Placement "44 2 3 -1 -1 -8 -30 12 212 31 426"))
+      (Tab 0)))
   (MPSSessionName "Jo"))
