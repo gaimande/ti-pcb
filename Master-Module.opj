@@ -36,7 +36,13 @@
     (TRUE)
     (TRUE)
     (TRUE)
-    ( "TRUE"))
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE))
   (Folder "Outputs"
     (File ".\master-module.drc"
       (Type "Report"))
@@ -151,19 +157,19 @@
       (Path "Design Resources")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" "E:\Code Project\ti-pcb\master-module.dsn"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 27 227 33 428"))
+        (Placement "44 0 1 -1 -1 -8 -30 13 213 211 606"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 27 1189 65 690")
-        (Scroll "3149 557")
-        (Zoom "216")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1216 50 483")
+        (Scroll "0 0")
+        (Zoom "25")
         (Occurrence "/"))
       (Path "E:\CODE PROJECT\TI-PCB\MASTER-MODULE.DSN")
       (Schematic "LM3S9790")
